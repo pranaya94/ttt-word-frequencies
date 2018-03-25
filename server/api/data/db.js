@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 // const dburl = 'mongodb://localhost:27017/ttt';
 
 
-mongoose.connect(MONGOLAB_URI);
+mongoose.createConnection(ENV['MONGOLAB_URI']);
 mongoose.connection.on('connected',() => {
     console.log('mongoose connected to : ' + dburl);
 });
