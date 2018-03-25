@@ -21,7 +21,7 @@ class FrequencyGenerator extends Component {
     componentWillMount(){
         let xhr = new XMLHttpRequest()
         xhr.onreadystatechange = () => {
-            if(xhr.status == 201 && xhr.readyState == 4){
+            if(xhr.status === 201 && xhr.readyState === 4){
                 this.setState({
                     fileLoaded : true
                 })

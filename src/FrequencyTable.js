@@ -3,9 +3,6 @@ import TableRow from './TableRow'
 import FreqTable from './FreqTable.css'
 
 class FrequencyTable extends Component{
-    constructor(props){
-        super(props)
-    }
 
     render(){
         

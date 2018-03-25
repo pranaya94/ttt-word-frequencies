@@ -17,9 +17,9 @@ class InputBox extends Component {
         let xhr = new XMLHttpRequest()
         let x = this
         xhr.onreadystatechange = () => {
-            if(xhr.status == 200 && xhr.readyState == 4){
+            if(xhr.status === 200 && xhr.readyState === 4){
                 this.props.handleInputChange(xhr.response)
-            }else if(xhr.status == 400 && xhr.readyState == 4){                
+            }else if(xhr.status === 400 && xhr.readyState === 4){                
                 console.log("bad input")
             }
         }       
