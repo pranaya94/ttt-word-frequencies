@@ -32,7 +32,6 @@ module.exports.wordCounter = function(req,res){
 
 let getFrequencies = function(doc,N){
 
-    // let docSan = doc.replace("’","'");
     let docSanitized = doc.replace("’","'").replace(/[^a-z0-9']/gi,' ').toUpperCase(); //anything that is not alphanumeric or ' is replaced with a space
     let docArray = docSanitized.split(' ').filter((elem) => {
         if(elem !== '')

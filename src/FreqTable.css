@@ -1,0 +1,34 @@
+.Freq{
+    position : relative;
+    top : 100px;
+    display: flex;
+    width : 40%;
+    margin : auto;
+    align-items: center;
+}
+
+.FreqTable{
+    /* padding: 10px; */
+    min-width : 100%;
+    text-align: center;
+    color : white;
+    margin : auto;
+}
+
+tr:nth-child(even) {
+    background-color: white;
+    color : black}
+
+.td-word{
+    border-radius: 20px 0px 0px 20px;
+    padding-top : 10px;
+    padding-bottom : 10px;
+    width : 50%;
+}
+
+.td-freq{
+    border-radius: 0px 20px 20px 0px;
+    padding-top : 10px;
+    padding-bottom : 10px;
+    width : 50%;
+}

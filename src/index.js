@@ -1,8 +1,14 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import registerServiceWorker from './registerServiceWorker';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import {
+    BrowserRouter as Router,
+    Route
+  } from 'react-router-dom'
+import FrequencyGenerator from './FrequencyGenerator'
 
-ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
+ReactDOM.render(
+    <Router>
+        <div>
+            <FrequencyGenerator />            
+        </div>  
+    </Router>, document.getElementById('root'))
