@@ -15,7 +15,6 @@ class InputBox extends Component {
         }
         let N = e.target.value
         let xhr = new XMLHttpRequest()
-        let x = this
         xhr.onreadystatechange = () => {
             if(xhr.status === 200 && xhr.readyState === 4){
                 this.props.handleInputChange(xhr.response)

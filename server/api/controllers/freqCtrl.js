@@ -100,7 +100,7 @@ module.exports.fetchFile = function(req,res){
                     }else{
                         res
                             .status(201)
-                            .json(doc);
+                            .json();
                     }
                 });
         });

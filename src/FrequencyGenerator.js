@@ -41,7 +41,7 @@ class FrequencyGenerator extends Component {
             )
         }else{
             return(
-                <div>Fetching file...</div>
+                <div style={{"color":"white"}}>Fetching file...</div>
             )
         }
     }
