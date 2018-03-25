@@ -10,7 +10,7 @@ const app = express();
 app.set('port', process.env.PORT);
 
 app.use(bodyParser.json());
-app.use(express.static(__dirname +'/../build'));
+app.use(express.static(__dirname +'/build'));
 
 //enable CORS
 app.all('/', function(req, res, next) {
