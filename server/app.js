@@ -7,7 +7,7 @@ var path = require('path');
 let freqCtrl = require('./api/controllers/freqCtrl.js');
 
 const app = express();
-app.set('port', process.env.PORT || 3001);
+app.set('port', process.env.PORT);
 
 app.use(bodyParser.json());
 app.use(express.static(__dirname +'/../build'));
