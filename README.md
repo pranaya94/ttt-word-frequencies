@@ -3,7 +3,7 @@
 
 Takes a number N as input and returns the top N words and their respective frequencies.
 
-![Alt text](ttt1.png?raw=true "Title")
+![Alt text](ttt1.PNG?raw=true "Title")
 
 # Tech
   - Front-end : React.js
