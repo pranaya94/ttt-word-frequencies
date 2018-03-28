@@ -6,7 +6,7 @@ Takes a number N as input and returns the top N words and their respective frequ
 ![Alt text](ttt1.PNG?raw=true "Title")
 
 # Tech
-  - Front-end : React.js
+  - Front-end : React.js, designed a minimalistic UI in CSS3
   - Back-end : Node.js, Express, MongoDB (Hosted on mLab)
    
 # Back-end
