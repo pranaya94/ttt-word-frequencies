@@ -46,7 +46,7 @@ let getFrequencies = function(doc,N){
                 hash[docArray[i]]++;
             }else{ 
                                              //else add word as new property and set its value to zero
-                hash[docArray[i]] = 0;
+                hash[docArray[i]] = 1;
             }
     }
 

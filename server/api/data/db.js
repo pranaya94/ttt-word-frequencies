@@ -1,8 +1,8 @@
 const mongoose = require('mongoose');
 // const dburl = 'mongodb://localhost:27017/ttt';
 
+let dburl = process.env.MONGODB_URI;
 
-let dburl = 'mongodb://admin:password@ds121289.mlab.com:21289/ttt';
 // mongoose.connect(process.env.MONGODB_URI);
 mongoose.connect(dburl);
 mongoose.connection.on('connected',() => {
