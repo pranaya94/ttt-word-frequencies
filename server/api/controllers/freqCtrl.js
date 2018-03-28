@@ -53,7 +53,7 @@ let getFrequencies = function(doc,N){
     //convert object into array of {word : freq} objects
     let frequencyArray = [];
     for(let word in hash){
-        frequencyArray.push([word,hash[word]]); 
+        frequencyArray.push([word.toLowerCase(),hash[word]]); 
     }
     //sort this array on frequencies
     frequencyArray.sort((a,b) => b[1] - a[1]);
@@ -82,7 +82,7 @@ module.exports.fetchFile = function(req,res){
         });
 
         resp.on('end',() => {
-            // console.log(data);
+            console.log("file fetched");
             File
                 .remove({},() => {
                     console.log("delted successfuly"); //remove previous version, only one file stored on db at a time

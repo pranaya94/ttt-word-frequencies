@@ -28,7 +28,7 @@ class InputBox extends Component {
 
     render() {
     return (
-      <div style={{"display":"flex"}}>
+      <div style={{"display":"flex", "align-items" : "center", "position" : "relative", "top" : "100px"}}>
       <input type = "number" placeholder = "Enter number" style={{"width" : "40%", "margin" : "auto","borderRadius" : "40px", 
       "borderStyle" : "none", "padding" : "20px 40px", "lineHeight" : "28px", "fontSize" : "20px", "outline" : "none"}}
       onChange={this.handleChange}></input>

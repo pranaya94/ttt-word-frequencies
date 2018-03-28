@@ -1,6 +1,6 @@
 .Freq{
     position : relative;
-    top : 100px;
+    top : 150px;
     display: flex;
     width : 40%;
     margin : auto;
@@ -26,6 +26,9 @@ tr:nth-child(even) {
     width : 50%;
 }
 
+th{
+    text-align: center;
+}
 .td-freq{
     border-radius: 0px 20px 20px 0px;
     padding-top : 10px;

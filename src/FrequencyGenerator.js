@@ -41,7 +41,9 @@ class FrequencyGenerator extends Component {
             )
         }else{
             return(
-                <div style={{"color":"white"}}>Fetching file...</div>
+                <div  style={{"margin" : "auto", "width" : "20%", "position" : "relative", "top" : "150px"}}>
+                <img src = "Infinity_Spinner.svg"></img>
+                </div>
             )
         }
     }
