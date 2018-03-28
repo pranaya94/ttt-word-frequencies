@@ -3,6 +3,8 @@
 
 Takes a number N as input and returns the top N words and their respective frequencies.
 
+![Alt text](ttt1.png?raw=true "Title")
+
 # Tech
   - Front-end : React.js
   - Back-end : Node.js, Express, MongoDB (Hosted on mLab)
